@@ -69,7 +69,22 @@ All transactions and deployments are recorded in:
 - Sepolia Testnet
 
 ---
+## 🧠 What I Learned
 
-## 🎯 Goal
+- ERC20 token standard implementation
+- Smart contract deployment using Remix
+- Interacting with contracts via MetaMask
+- Using approve() and transferFrom()
+- Building crowdfunding logic with deadlines
+- Handling success and failure cases (claim vs refund)
 
-Build real-world smart contracts and reach **$1000/month income with Solidity within 1 year**.
+---
+
+## 📬 Contact
+
+Available for:
+- Smart contract development
+- Bug fixing
+- Simple DeFi projects
+
+- GitHub: https://github.com/simon19833
