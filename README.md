@@ -7,16 +7,16 @@ I am building real smart contracts, deploying them on Sepolia, and recording on-
 ---
 
 ## 📅 Projects
-
 ### 🪙 Day 1 — ERC20 Token
+
 Basic ERC20 token implementation.
 
-- Minting on deployment
-- Transfers between addresses
-- Standard ERC20 logic
+- Minting on deployment  
+- Transfers between addresses  
+- Standard ERC20 logic  
 
-📁 Folder: `day1-erc20`
-
+📁 Folder: `day1-erc20`  
+🔗 Contract: https://sepolia.etherscan.io/address/0xEd78eb70275AD57C9a873559a227be3805970202
 ---
 
 ### 🏦 Day 2 — Token Vault
@@ -51,11 +51,10 @@ Goal-based crowdfunding contract.
 - deadline logic
 
 📁 Folder: `day10-crowdfund`
-
+🔗 Contract: https://sepolia.etherscan.io/address/0xB982E3719D02d2A9D710D06655c2e9fCbaC1fa8d
 ---
 
 ## 🔗 On-chain Proof
-
 All transactions and deployments are recorded in:
 
 👉 `PROGRESS_LOG.md`
