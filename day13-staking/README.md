@@ -10,7 +10,7 @@ A DeFi staking contract where users lock tokens and earn rewards over time.
 
 ## Contracts Deployed on Sepolia
 - Token:   0x086297E896CB5B6437CB917aB9230Ac5982FbF28
-- Staking: 0xd4Ab20480e12C2A5F91F6c2771283cb9582F32d8
+- Staking: 0xf5B6DE7dAd20Ad7a24aBc743aD000c7404e5554D
 
 ## Concepts Used
 - CEI pattern (Checks, Effects, Interactions)
