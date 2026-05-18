@@ -17,3 +17,8 @@ A DeFi staking contract where users lock tokens and earn rewards over time.
 - block.timestamp for time tracking
 - ERC20 transferFrom with approve
 - Reentrancy protection
+
+## Day 14 Improvements
+- Fixed reward rate to 10% APY
+- Added OpenZeppelin ReentrancyGuard
+- Added nonReentrant to stake() and unstake()
