@@ -8,6 +8,7 @@ contract MyNFT is ERC721, Ownable {
     uint256 public tokenCounter;
     uint256 public maxSupply;
     uint256 public mintPrice;
+    string public baseURI;
 
     constructor(
         uint256 _maxSupply,
@@ -16,6 +17,14 @@ contract MyNFT is ERC721, Ownable {
         maxSupply = _maxSupply;
         mintPrice = _mintPrice;
         tokenCounter = 0;
+    }
+
+    function setBaseURI(string memory _baseURI) external onlyOwner {
+        baseURI = _baseURI;
+    }
+
+    function _baseURI() internal view override returns (string memory) {
+        return baseURI;
     }
 
     function mint() external payable {
