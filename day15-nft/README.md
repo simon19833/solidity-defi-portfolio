@@ -9,7 +9,7 @@ A mintable NFT collection with supply limit and mint price.
 - Each NFT has a unique token ID
 
 ## Contract Deployed on Sepolia
-- NFT: 0x04c3C8684BfCEDe563b323Bf00b02341Dfd3c6f2
+- NFT: 0x86D459730b9F474904617264F3859efbE6767936
 
 ## Concepts Used
 - ERC721 standard
@@ -17,3 +17,8 @@ A mintable NFT collection with supply limit and mint price.
 - onlyOwner modifier
 - payable functions
 - ETH withdrawal pattern
+
+## Day 16 Improvements
+- Added setBaseURI() — owner sets metadata URL
+- Added _baseURI() — returns base URL for all tokens
+- tokenURI() now returns full metadata link per token
